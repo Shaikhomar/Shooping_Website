@@ -1,0 +1,151 @@
+/* Body styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F5EFFF; /* Soft white lavender background */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling */
+header {
+  background-color: #A594F9; /* Cool blue-purple header */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero section */
+.hero {
+  text-align: center;
+  padding: 50px;
+}
+
+.hero h2 {
+  color: #A594F9;
+}
+
+.hero img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+/* Products section */
+.products {
+  padding: 40px;
+  background-color: #E5D9F2; /* Light lavender background */
+  text-align: center;
+}
+
+.products h3 {
+  color: #CDC1FF; /* Light purple */
+  margin-bottom: 30px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  width: 200px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #F5EFFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Form styling for login and signup */
+.form-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #E5D9F2;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  color: #A594F9;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 16px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0 20px 0;
+  background-color: #F5EFFF;
+  border: 1px solid #CDC1FF;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #A594F9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #8a78d8;
+}
+
+/* Product details styling */
+.product-details-container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #E5D9F2;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.product-details-container img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #CDC1FF;
+  color: white;
+}

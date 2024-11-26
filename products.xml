@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+  <product>
+    <name>Smartphone</name>
+    <brand>Brand A</brand>
+    <price>$299</price>
+  </product>
+  <product>
+    <name>Laptop</name>
+    <brand>Brand B</brand>
+    <price>$799</price>
+  </product>
+  <product>
+    <name>Headphones</name>
+    <brand>Brand C</brand>
+    <price>$99</price>
+  </product>
+</products>
